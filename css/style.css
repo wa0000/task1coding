@@ -304,11 +304,15 @@ h1,h2,h3{
         margin: auto;
     }
     .pcimg02{
+        order: 3;
+    }
+    .staff1img_pc{
         order: 2;
     }
     .pcimg03{
         order: 1;
     }
+
     .price_descripc{
         text-align: right;
         font-family: 'Open Sans', sans-serif;
@@ -359,7 +363,9 @@ h1,h2,h3{
     .staff2_photo img{
         width: 100%;
     }
-    .pcimg05
+    .staff2img_pc{
+        width: 10%;
+    }
     .pcimg06{
         align-self: center;
         display: inline;
