@@ -35,11 +35,13 @@ html body {
   }
   .header {
     text-align: center;
+    margin: auto;
     margin-top: 100px;
     width: 100vw;
+    min-width: 320px;
   }
   .headp_first {
-    font-size: 30px;
+    font-size: 1.7em;
     text-align: center;
     letter-spacing: 0.04em;
     font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
@@ -53,7 +55,7 @@ html body {
     width: 30%;
   }
   .headp_second {
-    font-size: 37px;
+    font-size: 200%;
     letter-spacing: 0.04em;
     text-align: center;
     display: inline;
