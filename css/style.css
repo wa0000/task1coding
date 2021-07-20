@@ -13,23 +13,31 @@ h1, h2, h3 {
 
 html body {
   min-width: 320px;
+  width: 100%;
 }
 
 /* メトリクスfont-feature-settings: "palt" 1; */
 
 /* header */
-
+@media screen and (max-width:320px){
+  img{
+    max-width: 320px;
+  }
+}
 @media screen and (max-width:767px) {
+  img{
+    width: 100%;
+  }
   .head_pcimg {
     display: none;
   }
   .header {
     text-align: center;
     margin-top: 100px;
+    width: 100vw;
   }
   .headp_first {
     font-size: 30px;
-    /* line-height: 2; */
     text-align: center;
     letter-spacing: 0.04em;
     font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
@@ -38,6 +46,10 @@ html body {
   }
   .head_spimg {
     display: inline;
+   
+  }
+  .head_spimg img{
+    width: 30%;
   }
   .headp_second {
     font-size: 37px;
@@ -222,6 +234,9 @@ html body {
     font-feature-settings: "palt" 1;
   }
   .price_descripc {
+    display: none;
+  }
+  .staff2img_pc{
     display: none;
   }
 }
