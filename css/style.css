@@ -19,14 +19,16 @@ html body {
 /* メトリクスfont-feature-settings: "palt" 1; */
 
 /* header */
-@media screen and (max-width:320px){
-  img{
+
+@media screen and (max-width:320px) {
+  img {
     max-width: 320px;
   }
 }
+
 @media screen and (max-width:767px) {
-  img{
-    width: 100%;
+  img {
+    max-width: 100%;
   }
   .head_pcimg {
     display: none;
@@ -46,9 +48,8 @@ html body {
   }
   .head_spimg {
     display: inline;
-   
   }
-  .head_spimg img{
+  .head_spimg img {
     width: 30%;
   }
   .headp_second {
@@ -236,7 +237,7 @@ html body {
   .price_descripc {
     display: none;
   }
-  .staff2img_pc{
+  .staff2img_pc {
     display: none;
   }
 }
