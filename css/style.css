@@ -99,6 +99,9 @@ html body {
   .header img{
     width: 40%;
   }
+  body .photo{
+    margin-top: 40px;
+  }
   /* .headp_first {
     font-size: 36px;
     line-height: 2;
@@ -362,6 +365,7 @@ html body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     letter-spacing: 0.1em;
+    margin-top: 20px;
   }
   .price_descrisp {
     display: none;
@@ -450,15 +454,15 @@ html body {
     order: 3;
     margin-left: auto;
   }
-/* .staff3_photo{
+.staff3_photo{
+  width: 70%;
+  margin: 0 auto;
   text-align: center;
-} */
-.pcimg08{
-  width: 50%;
-  margin: auto;
+  display: flex;
+  justify-content: center;
 }
-.pcimg08 img{
-width: 100%;
+.staff3_photo img{
+  width: 100%;
 }
 .staff3_photo .price_descripc{
   text-align: left;
@@ -468,10 +472,27 @@ width: 100%;
 /* /staff3*/
 
 /* staff4 */
+.owht2{
+  color: #fcf6ed;
+}
+.mnt{
+  color: #d8d7bc;
+}
+@media screen and (max-width:767px) {
+  .spimg11{
+    text-align: right;
+    margin-top: 25px;
+  }
+}
 
-@media screen and (max-width:767px) {}
-
-@media screen and (min-width:768px) {}
+@media screen and (min-width:768px) {
+  .pcimg11{
+    margin-top: 115px;
+  }
+  .staff4img_pc{
+    width: 10%;
+  }
+}
 
 /* /staff4*/
 
