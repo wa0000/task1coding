@@ -40,55 +40,8 @@ html body {
     margin-top: 110px;
   }
   .photo {
-    margin-top: 50px;
+    margin-top: 40px;
   }
-  /* .header {
-    text-align: center;
-    margin: auto;
-    margin-top: 100px;
-    width: 100vw;
-    min-width: 320px;
-  }
-  .headp_first {
-    font-size: 1.7em;
-    text-align: center;
-    letter-spacing: 0.04em;
-    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
-    margin-bottom: 30px;
-    font-weight: 500;
-  }
-  .head_spimg {
-    display: inline;
-  }
-  .head_spimg img {
-    width: 30%;
-  }
-  .headp_second {
-    font-size: 200%;
-    letter-spacing: 0.04em;
-    text-align: center;
-    display: inline;
-    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
-    font-weight: 500;
-    margin-bottom: 20px;
-  }
-  .headp_third {
-    text-align: center;
-    margin-top: 15px;
-    position: relative;
-    letter-spacing: 0.04em;
-    font-size: 28px;
-    font-family: 'Open Sans', sans-serif;
-  }
-  .headp_third::before {
-    content: '';
-    position: absolute;
-    bottom: -6px;
-    max-width: 70px;
-    width: 100%;
-    height: 2px;
-    background-color: #000;
-  } */
 }
 
 @media screen and (min-width:768px) {
@@ -164,6 +117,9 @@ html body {
   .pcimg {
     display: none;
   }
+  .pcbr {
+    display: none;
+  }
   .staff_block_1 {
     text-align: center;
     margin-top: 100px;
@@ -203,14 +159,15 @@ html body {
     margin: auto;
   }
   h3 {
-    padding-top: 35px;
-    font-size: 15px;
+    margin-top: 20px;
+    font-size: 16px;
     font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+    letter-spacing: 0.05em;
   }
   .price {
     padding-top: 16px;
     letter-spacing: 0.1em;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
   }
   .color {
@@ -220,7 +177,7 @@ html body {
   }
   .color span {
     padding: 0 15px;
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 0.1em;
     font-family: 'Open Sans', sans-serif;
   }
@@ -253,6 +210,11 @@ html body {
   }
   .staff2img_pc {
     display: none;
+  }
+  .descri {
+    font-size: 15px;
+    line-height: 1.7rem;
+    letter-spacing: 0.05em;
   }
 }
 
@@ -293,8 +255,8 @@ html body {
     display: inline;
   }
   h2 {
-    padding-top: 20px;
-    font-size: 21px;
+    padding-top: 15px;
+    font-size: 24px;
     letter-spacing: 0.05em;
     font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
   }
@@ -313,20 +275,20 @@ html body {
   .staff_block_3 {
     width: 400px;
     text-align: center;
-    margin-top: -280px;
+    margin-top: -270px;
   }
   h3 {
     font-size: 16px;
     font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
   }
   .price {
-    padding-top: 16px;
+    margin-top: 10px;
     letter-spacing: 0.1em;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
   }
   .color {
-    padding-top: 20px;
+    margin-top: 15px;
     display: flex;
     justify-content: center;
   }
@@ -339,7 +301,7 @@ html body {
   .color i {
     font-size: 1.3em;
     vertical-align: -2px;
-    padding-right: 10px;
+    padding-right: 7px;
   }
   .staff1_photo {
     display: flex;
@@ -356,6 +318,7 @@ html body {
   }
   .pcimg03 {
     order: 1;
+    margin-top: 110px;
   }
   .staff1_photo img {
     width: 100%;
@@ -363,15 +326,17 @@ html body {
   .price_descripc {
     text-align: right;
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     letter-spacing: 0.1em;
-    margin-top: 20px;
+    margin-top: 10px;
+    line-height: 1.5rem;
   }
   .price_descrisp {
     display: none;
   }
   .descri {
     margin-top: 20px;
+    font-size: 14px;
   }
   /* .huku{
         margin-top: ;
@@ -572,7 +537,6 @@ html body {
     border-bottom: #000 2px solid;
     padding-bottom: 10px;
     letter-spacing: 0.04em;
-
     background-image: url('/img/triangle.svg');
     background-position: center right 10px;
     background-repeat: no-repeat;
@@ -587,6 +551,44 @@ html body {
   }
 }
 
-@media screen and (min-width:768px) {}
+@media screen and (min-width:768px) {
+  .checkallitems {
+    background-color: #fff;
+    margin: 100px auto 0;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    width: 435px;
+    letter-spacing: 0.04em;
+    font-feature-settings: "palt" 1;
+    font-size: 25px;
+    line-height: 5rem;
+  }
+  .backnumber a {
+    color: #000;
+  }
+  .backnumber p {
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    margin: 45px 30px 600px;
+    width: 135px;
+    border-bottom: #000 2px solid;
+    padding-bottom: 5px;
+    letter-spacing: 0.04em;
+    background-image: url('/img/triangle.svg');
+    background-position: center right 10px;
+    background-repeat: no-repeat;
+    background-size: 7%;
+    padding-right: 20px;
+  }
+  .backnumber {
+    margin: 0 auto;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+  }
+}
 
 /* /footmenu */
