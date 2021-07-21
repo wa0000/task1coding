@@ -17,7 +17,15 @@ html body {
   width: 100%;
   margin: 0 auto;
 }
-
+.fadein {
+  opacity : 0;
+  transform : translate(0, 50px);
+  transition : all 3000ms;
+}
+.fadein.scrollin {
+  opacity : 1;
+  transform : translate(0, 0);
+}
 /* メトリクスfont-feature-settings: "palt" 1; */
 
 /* header */
