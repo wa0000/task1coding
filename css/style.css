@@ -13,7 +13,9 @@ h1, h2, h3 {
 
 html body {
   min-width: 320px;
+  max-width: 1360px;
   width: 100%;
+  margin: 0 auto;
 }
 
 /* メトリクスfont-feature-settings: "palt" 1; */
@@ -30,10 +32,17 @@ html body {
   img {
     max-width: 100%;
   }
-  .head_pcimg {
-    display: none;
+  .header img{
+    width: 90%;
   }
-  .header {
+ .header{
+    text-align: center;
+    margin-top: 110px;
+  }
+  .photo{
+    margin-top: 50px;
+  }
+  /* .header {
     text-align: center;
     margin: auto;
     margin-top: 100px;
@@ -79,7 +88,7 @@ html body {
     width: 100%;
     height: 2px;
     background-color: #000;
-  }
+  } */
 }
 
 @media screen and (min-width:768px) {
@@ -87,7 +96,10 @@ html body {
     margin-top: 210px;
     text-align: center;
   }
-  .headp_first {
+  .header img{
+    width: 40%;
+  }
+  /* .headp_first {
     font-size: 36px;
     line-height: 2;
     text-align: center;
@@ -124,7 +136,7 @@ html body {
     width: 100%;
     height: 2px;
     background-color: #000;
-  }
+  } */
 }
 
 /* /header */
@@ -218,9 +230,6 @@ html body {
     text-align: left;
     margin-top: 20px;
     display: inline-block;
-  }
-  .staff1_photo {
-    margin-top: 30px;
   }
   .spimg02 {
     text-align: right;
@@ -415,10 +424,46 @@ html body {
 /* /staff2*/
 
 /* staff3 */
+.yel{
+  color: #f7efa9;
+}
+.beg2{
+  color: #d4c5ab;
+}
+.ppl2{
+  color: #b7425e;
+}
+@media screen and (max-width:767px) {
+  .spimg08{
+    text-align: center;
+  }
+}
 
-@media screen and (max-width:767px) {}
-
-@media screen and (min-width:768px) {}
+@media screen and (min-width:768px) {
+  .pattern3 .staff_block_1{
+    order: 2;
+  }
+  .pattern3 .staff_block_2{
+    order: 1;
+  }
+  .pattern3 .staff_block_3{
+    order: 3;
+    margin-left: auto;
+  }
+/* .staff3_photo{
+  text-align: center;
+} */
+.pcimg08{
+  width: 50%;
+  margin: auto;
+}
+.pcimg08 img{
+width: 100%;
+}
+.staff3_photo .price_descripc{
+  text-align: left;
+}
+}
 
 /* /staff3*/
 
