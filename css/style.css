@@ -11,21 +11,24 @@ h1, h2, h3 {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-html body {
+body {
   min-width: 320px;
   max-width: 1360px;
   width: 100%;
   margin: 0 auto;
 }
+
 .fadein {
-  opacity : 0;
-  transform : translate(0, 50px);
-  transition : all 3000ms;
+  opacity: 0;
+  transform: translate(0, 50px);
+  transition: all 3000ms;
 }
+
 .fadein.scrollin {
-  opacity : 1;
-  transform : translate(0, 0);
+  opacity: 1;
+  transform: translate(0, 0);
 }
+
 /* メトリクスfont-feature-settings: "palt" 1; */
 
 /* header */
@@ -367,6 +370,36 @@ html body {
   .staff2_photo {
     text-align: center;
   }
+  .spimg06 {
+    margin-top: 25px;
+  }
+  .pattern2_contents {
+    z-index: 1000;
+  }
+  .pattern2_box {
+    position: relative;
+    width: 100%;
+  }
+  .pattern2_bgc1 {
+    position: absolute;
+    right: 0;
+    top: 250px;
+    width: 60%;
+    height: 35%;
+    /* max-height: 750px; */
+    background-color: #e5dafe;
+    z-index: -10;
+  }
+  .pattern2_bgc2 {
+    position: absolute;
+    left: 0;
+    top: 1050px;
+    width: 73%;
+    height: 49%;
+    /* max-height: 850px; */
+    background-color: #e5dafe;
+    z-index: -10;
+  }
 }
 
 @media screen and (min-width:768px) {
@@ -396,6 +429,33 @@ html body {
     align-self: center;
     display: inline;
   }
+  .pattern2_contents {
+    z-index: 1000;
+  }
+  html .pattern2_box {
+    position: relative;
+    width: 100%;
+  }
+  .pattern2_bgc1 {
+    position: absolute;
+    right: 0;
+    top: 150px;
+    width: 60%;
+    height: 35%;
+    /* max-height: 750px; */
+    background-color: #e5dafe;
+    z-index: -10;
+  }
+  .pattern2_bgc2 {
+    position: absolute;
+    left: 0;
+    top: 600px;
+    width: 58%;
+    height: 49%;
+    /* max-height: 850px; */
+    background-color: #e5dafe;
+    z-index: -10;
+  }
 }
 
 /* /staff2*/
@@ -417,6 +477,24 @@ html body {
 @media screen and (max-width:767px) {
   .spimg08 {
     text-align: center;
+  }
+  .pattern3_contents {
+    z-index: 1000;
+  }
+  .pattern3_box {
+    position: relative;
+    width: 100%;
+  }
+  .pattern3_bgc{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 400px;
+    width: 90%;
+    height: 55%;
+    /* max-height: 750px; */
+    background-color: #fff6e6;
+    z-index: -10;
   }
 }
 
@@ -443,6 +521,23 @@ html body {
   }
   .staff3_photo .price_descripc {
     text-align: left;
+  }
+  .pattern3_contents {
+    z-index: 1000;
+  }
+  .pattern3_box {
+    position: relative;
+    width: 100%;
+  }
+  .pattern3_bgc{
+    position: absolute;
+    right: 0;
+    top: 230px;
+    width: 53%;
+    height: 80%;
+    /* max-height: 750px; */
+    background-color: #fff6e6;
+    z-index: -10;
   }
 }
 
@@ -598,5 +693,3 @@ html body {
     justify-content: center;
   }
 }
-
-/* /footmenu */
