@@ -431,10 +431,17 @@ body {
   }
   .pattern2_contents {
     z-index: 1000;
+    max-width: 1360px;
+    margin: 0 auto;
   }
   html .pattern2_box {
     position: relative;
     width: 100%;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
   }
   .pattern2_bgc1 {
     position: absolute;
