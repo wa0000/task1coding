@@ -227,6 +227,9 @@ body {
     line-height: 1.7rem;
     letter-spacing: 0.05em;
   }
+  .spimg01 {
+    margin-top: 20px;
+  }
 }
 
 @media screen and (min-width:768px) {
@@ -393,12 +396,13 @@ body {
   .pattern2_bgc2 {
     position: absolute;
     left: 0;
-    top: 1050px;
+    top: 55%;
     width: 73%;
     height: 49%;
-    /* max-height: 850px; */
+    max-height: 880px;
     background-color: #e5dafe;
     z-index: -10;
+    border: 1px solid red;
   }
 }
 
@@ -491,7 +495,7 @@ body {
     position: relative;
     width: 100%;
   }
-  .pattern3_bgc{
+  .pattern3_bgc {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -535,7 +539,7 @@ body {
     position: relative;
     width: 100%;
   }
-  .pattern3_bgc{
+  .pattern3_bgc {
     position: absolute;
     right: 0;
     top: 230px;
