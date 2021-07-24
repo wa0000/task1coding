@@ -301,7 +301,7 @@ body {
   }
   .pattern1 .staff_block_1 {}
   .staff_block_1 {
-    max-width: 400px;
+    top: calc(30% - 85px);
     position: absolute;
     margin-left: 40%;
     width: 60%;
@@ -341,10 +341,9 @@ body {
     margin-left: 40%;
   }
   .staff_block_3 {
-    max-width: 400px;
     width: 60%;
     text-align: center;
-    bottom: 40px;
+    bottom: 10%;
     position: absolute;
   }
   h3 {
